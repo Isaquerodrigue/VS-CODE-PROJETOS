@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://images2.alphacoders.com/555/555455.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.5px;
+}
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+    margin: 50px 0 50px;
+    cursor: pointer;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.result{
+    color: #ffffff;
+    font-size: 40px;
+    -webkit-text-stroke-color: #00cf11;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+#pedra{
+    padding: 10px 20px ;
+    background: #646464;
+}
+
+#papel{
+    background: #646464;
+}
+
+#tesoura{
+    background: #646464;
+}
+
+.my-score{
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.5px;
+    margin-bottom: 20px;
+}
+
+.machine-score{
+    font-size: 40px;
+    color: #ffffff;
+    -webkit-text-stroke-color: #000000;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+
